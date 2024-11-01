@@ -1,7 +1,7 @@
 #container{
     width: 1920px;
+    box-sizing: border-box;
 }
-
 #logo {
     background-color: black;
     padding: 40px;
@@ -10,10 +10,24 @@
 #banner {
     background-image: url(../images/banner.jpg);
     background-position: top;
-    height: 80vh;
+    height: 700px;
 }
 
-#banner-text {
+#banner-text{
     text-align: center;
-    
+    line-height: 1.5em;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 100px;    
+    border-radius: 10%;
+    background-color: #F14C2F;
+    border-color: transparent;
+}
+
+#banner-text a {
+    color: white;
+    text-decoration: none;
 }
