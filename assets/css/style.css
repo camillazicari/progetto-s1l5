@@ -31,3 +31,13 @@ button {
     color: white;
     text-decoration: none;
 }
+
+#centrale{
+    margin: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#centrale img {
+    border-radius: 100%;
+}
