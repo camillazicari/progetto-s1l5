@@ -1,43 +1,19 @@
-#logo {
-    background-color: blue;
+#container{
+    width: 1920px;
 }
 
-#logo img{
-    width: 20vw;
-    padding: 2vw;
+#logo {
+    background-color: black;
+    padding: 40px;
 }
 
 #banner {
     background-image: url(../images/banner.jpg);
+    background-position: top;
+    height: 80vh;
+}
+
+#banner-text {
     text-align: center;
-}
-
-@media screen and (max-width: 500px) {
-    #logo {
-        background-color: blue;
-    }
     
-    #logo img{
-        width: 20vw;
-        padding: 2vw;
-    }
-    
-    #banner {
-        background-image: url(../images/banner.jpg);
-        text-align: center;
-    }
-}
-
-#logo {
-    background-color: blue;
-}
-
-#logo img{
-    width: 20vw;
-    padding: 2vw;
-}
-
-#banner {
-    background-image: url(../images/banner.jpg);
-    text-align: center;
 }
