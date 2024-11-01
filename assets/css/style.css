@@ -1,8 +1,43 @@
 #logo {
-    background-color: black;
+    background-color: blue;
 }
 
 #logo img{
     width: 20vw;
     padding: 2vw;
+}
+
+#banner {
+    background-image: url(../images/banner.jpg);
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    #logo {
+        background-color: blue;
+    }
+    
+    #logo img{
+        width: 20vw;
+        padding: 2vw;
+    }
+    
+    #banner {
+        background-image: url(../images/banner.jpg);
+        text-align: center;
+    }
+}
+
+#logo {
+    background-color: blue;
+}
+
+#logo img{
+    width: 20vw;
+    padding: 2vw;
+}
+
+#banner {
+    background-image: url(../images/banner.jpg);
+    text-align: center;
 }
