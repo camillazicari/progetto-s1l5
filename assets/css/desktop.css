@@ -8,8 +8,8 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
   font-size: 1.2rem;
-  min-width: 1366px;
   max-width: 1920px;
+  min-width: 1366px;
   color: #393d41;
   line-height: 1.65;
 }
@@ -116,10 +116,6 @@ button a {
   font-size: small;
 }
 
-#treimmagini {
-  display: flex;
-  margin: 70px;
-}
 .prodotti {
   vertical-align: top;
   width: 45%;
@@ -128,13 +124,52 @@ button a {
   margin: 10px;
 }
 
-.prodotti img {
-  width: 100%;
-  height: 410.11px;
+#trefoto {
+text-align: center;
+margin: 50px;
+}
+
+#foto1 {
+  border: 1px solid #dee1e3;
+  background-image: url(/assets/images/foto1.jpg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 150px;
+  margin-right: 50px;
+  padding-top: 300px;
+  display: inline-block;
+}
+
+#foto2 {
+  border: 1px solid #dee1e3;
+  background-image: url(/assets/images/foto2.jpg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  width: 400px;
+  height: 150px;
+  _margin: 50px;
+  padding-top: 300px;
+  display: inline-block;
+}
+
+#foto3 {
+  border: 1px solid #dee1e3;
+  background-image: url(/assets/images/foto3.jpg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 150px;
+  margin-left: 50px;
+  padding-top: 300px;
+  display: inline-block;
 }
 
 .prodotti-text {
-  padding: 40px;
   text-align: center;
 }
 
