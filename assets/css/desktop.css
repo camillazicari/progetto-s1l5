@@ -61,7 +61,6 @@ header img {
 
 button {
   display: inline-block;
-  margin: 0 auto;
   border-radius: 4px;
   padding: 10px 25px;
   background-color: #f14c2f;
@@ -79,7 +78,6 @@ button a {
 }
 #vantaggi img {
   border-radius: 100%;
-  width: 30vw;
 }
 
 #vantaggi-text {
@@ -116,13 +114,14 @@ button a {
 
 #treimmagini {
     display: flex;
+    margin: 70px;
 }
 .prodotti {
   vertical-align: top;
   width: 45%;
   border: solid #e2e5e5;
   border-radius: 5px;
-  margin: 20px
+  margin: 10px;
 }
 
 .prodotti img {
@@ -144,20 +143,26 @@ footer {
 }
 
 footer hr {
-  width: 30%;
+    text-align: center;
+  width: 12%;
   border: 0.2px solid #c8e7f0;
 }
 
 footer h4 {
   color: white;
-  font-size: x-large;
+  font-size: xxx-large;
 }
 
 footer a {
   color: #c8e7f0;
 }
 
-#footer-text {
-  font-size: small;
-  padding-top: 10px;
+#footer-text1 {
+    text-align: center;
+  font-size: medium;
+}
+
+#footer-text2 {
+    text-align: center;
+    font-size: small;
 }
