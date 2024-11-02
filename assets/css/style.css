@@ -1,43 +1,88 @@
-#container{
-    width: 1920px;
-    box-sizing: border-box;
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+#container {
+    max-width: 500px;
+    margin: auto;
 }
-#logo {
-    background-color: black;
-    padding: 40px;
+header {
+  background-color: black;
+  text-align: center;
+  padding: 15px;
+}
+
+header img {
+  width: 400px;
 }
 
 #banner {
-    background-image: url(../images/banner.jpg);
-    background-position: top;
-    height: 700px;
-}
+  background-image: url(../images/banner.jpg);
+  background-position: top;
+  background-size:cover;
+  height: 400px;
+  text-align: center;
+  padding-top: 100px;
+} 
 
-#banner-text{
-    text-align: center;
-    line-height: 1.5em;
+#banner-text {
+    padding: 100px;
 }
 
 button {
-    display: block;
-    margin: 0 auto;
-    width: 100px;    
-    border-radius: 10%;
-    background-color: #F14C2F;
-    border-color: transparent;
+  display: inline-block;
+  margin: 0 auto;
+  width: ;
+  border-radius: 4px;
+  padding: 10px 25px;
+  background-color: #f14c2f;
+  border-color: transparent;
 }
 
-#banner-text a {
+ button a {
+  color: white;
+  text-decoration: none;
+}
+
+#vantaggi {
+    text-align: center;
+}
+#vantaggi img {
+  border-radius: 100%;
+  margin: 20px;
+  width: %;
+}
+
+#citazione {
+  text-align: center;
+  background-color: red;
+  padding: 20vh;
+}
+
+.prodotti{
+    border: solid #E2E5E5;
+    border-radius: 3px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.prodotti img{
+    width: 100%;
+    height: auto;
+}
+
+.prodotti-text {
+    padding: 40px;
+}
+
+footer {
+    background-color: #1C97A7;
+    text-align: center;
     color: white;
-    text-decoration: none;
+}
+footer hr {
+    width: 50%;
 }
 
-#centrale{
-    margin: 10rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-#centrale img {
-    border-radius: 100%;
+footer a {
+    color: white;
 }
