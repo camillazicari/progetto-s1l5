@@ -31,11 +31,13 @@ header {
 }
 
 header img {
+    text-align: center;
   width: 100px;
 }
 
 #banner {
   background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 400px;
@@ -50,6 +52,7 @@ header img {
 
 #banner-text {
   padding: 70px;
+  font-size: large
 }
 
 button {
