@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+#container {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 1.2rem;
+  max-width: 1920px;
+  color: #393d41;
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.5;
+  color: #25a2c3;
+}
+
+header {
+  background-color: black;
+  text-align: center;
+  padding: 15px;
+}
+
+header img {
+    text-align: center;
+  width: 100px;
+}
+
+#banner {
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#banner h1 {
+  line-height: 1;
+  font-size: xx-large;
+}
+
+#banner-text {
+  padding: 70px;
+  font-size: large
+}
+
+button {
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 10px 25px;
+  background-color: #f14c2f;
+  border-color: transparent;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+#vantaggi {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#vantaggi img {
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#citazione {
+  color: white;
+  text-align: center;
+  background-color: #ed2b1d;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#citazione blockquote {
+  font-style: italic;
+  font-size: larger;
+}
+
+#citazione h4 {
+  color: white;
+  font-size: xx-large;
+}
+
+#citazione p {
+  font-size: small;
+}
+
+.prodotti {
+  border: solid #e2e5e5;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.prodotti img {
+  width: 100%;
+  height: auto;
+}
+
+.prodotti-text {
+  padding: 40px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #26a6cb;
+  text-align: center;
+  color: #c8e7f0;
+}
+footer hr {
+  width: 30%;
+  border: 0.2px solid #c8e7f0;
+}
+
+footer h4 {
+  color: white;
+  font-size: x-large;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+#footer-text {
+  font-size: small;
+  padding-top: 10px;
+}
