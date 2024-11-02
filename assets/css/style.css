@@ -56,11 +56,15 @@ header img {
 }
 
 button {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
   display: inline-block;
   margin: 0 auto;
   border-radius: 4px;
   padding: 10px 25px;
-  background-color: #f14c2f;
+  background-color: #f04c2f;
   border-color: transparent;
 }
 
@@ -81,7 +85,7 @@ button a {
 #citazione {
   color: white;
   text-align: center;
-  background-color: #ed2b1d;
+  background-color: #e22d0e;
   padding-top: 40px;
   padding-bottom: 30px;
   padding-left: 10px;
@@ -103,7 +107,7 @@ button a {
 }
 
 .prodotti {
-  border: solid #e2e5e5;
+  border: solid #dee1e3;
   border-radius: 5px;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -124,7 +128,7 @@ button a {
 footer {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #26a6cb;
+  background-color: #25a2c3;
   text-align: center;
   color: #c8e7f0;
 }

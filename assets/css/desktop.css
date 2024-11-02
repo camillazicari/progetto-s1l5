@@ -60,10 +60,14 @@ header img {
 }
 
 button {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
   display: inline-block;
   border-radius: 4px;
   padding: 10px 25px;
-  background-color: #f14c2f;
+  background-color: #f04c2f;
   border-color: transparent;
 }
 
@@ -91,7 +95,7 @@ button a {
 #citazione {
   color: white;
   text-align: center;
-  background-color: #ed2b1d;
+  background-color: #e22d0e;
   padding-top: 7vw;
   padding-bottom: 7vw;
   padding-left: 10px;
@@ -113,13 +117,13 @@ button a {
 }
 
 #treimmagini {
-    display: flex;
-    margin: 70px;
+  display: flex;
+  margin: 70px;
 }
 .prodotti {
   vertical-align: top;
   width: 45%;
-  border: solid #e2e5e5;
+  border: solid #dee1e3;
   border-radius: 5px;
   margin: 10px;
 }
@@ -137,13 +141,13 @@ button a {
 footer {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #26a6cb;
+  background-color: #25a2c3;
   text-align: center;
   color: #c8e7f0;
 }
 
 footer hr {
-    text-align: center;
+  text-align: center;
   width: 12%;
   border: 0.2px solid #c8e7f0;
 }
@@ -158,11 +162,11 @@ footer a {
 }
 
 #footer-text1 {
-    text-align: center;
+  text-align: center;
   font-size: medium;
 }
 
 #footer-text2 {
-    text-align: center;
-    font-size: small;
+  text-align: center;
+  font-size: small;
 }
